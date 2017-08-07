@@ -1,0 +1,11 @@
+{
+    "current_user": "negativefeedback",
+    "users": {
+        "negativefeedback": {
+            "device": "3d48df079a2bd95f0c7c1328bc531418",
+            "id": "ff6a82729e675ecfe451cb32b0d3a219",
+            "name": "negativefeedback",
+            "salt": "bdefb54a1d84291790140d8d22d4fa68"
+        }
+    }
+}

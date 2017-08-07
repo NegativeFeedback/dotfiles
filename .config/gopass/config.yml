@@ -1,0 +1,16 @@
+alwaystrust: true
+askformore: false
+autoimport: true
+autopull: true
+autopush: true
+cliptimeout: 45
+debug: false
+loadkeys: true
+mounts:
+  bsw: /home/zbayne/.password-store-bsw
+nocolor: false
+noconfirm: false
+path: /home/zbayne/.password-store
+persistkeys: true
+safecontent: false
+version: ""

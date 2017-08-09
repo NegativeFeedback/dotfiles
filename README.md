@@ -3,7 +3,7 @@ dotfiles
 
 Arch Linux with i3 WM config
 
-
+ Forked from https://github.com/mohlerm/
 Vim files are hosted in a separate repository:
 [github.com/mohlerm/vimfiles](https://github.com/mohlerm/vimfiles)
 

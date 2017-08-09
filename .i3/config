@@ -132,8 +132,8 @@ workspace $ws5 output DP1
 workspace $ws6 output DP1
 workspace $ws7 output DP1
 workspace $ws8 output DP1
-workspace $ws9 output LVDS1
-workspace $ws10 output LVDS1
+workspace $ws9 output HDMI1
+workspace $ws10 output HDMI1
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -169,7 +169,7 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 bindsym $mod+o move workspace to output right
 
 # Put this window on the presentation output.
-bindsym $mod+p move container to output DP1
+bindsym $mod+p move container to output HDMI1
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

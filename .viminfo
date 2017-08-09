@@ -11,10 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:x
+|2,0,1502318142,,"x"
+:quit
+|2,0,1502296816,,"quit"
 :q
 |2,0,1501790567,,"q"
-:quit
-|2,0,1500905263,,"quit"
 
 # Search String History (newest to oldest):
 
@@ -30,22 +32,120 @@
 |3,1,1,1,1,0,1500907284,"orfn;"
 
 # File marks:
-'0  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
-|4,48,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
-'1  1  0  ~/test
-|4,49,1,0,1500908834,"~/test"
+'0  2  112  ~/projects/deployment/.git/TAG_EDITMSG
+|4,48,2,112,1502318142,"~/projects/deployment/.git/TAG_EDITMSG"
+'1  1  91  ~/projects/deployment/.git/TAG_EDITMSG
+|4,49,1,91,1502317983,"~/projects/deployment/.git/TAG_EDITMSG"
+'2  1  91  ~/projects/deployment/.git/TAG_EDITMSG
+|4,50,1,91,1502317983,"~/projects/deployment/.git/TAG_EDITMSG"
+'3  2  0  ~/.cache/pacaur/sublime-text/PKGBUILD
+|4,51,2,0,1502296816,"~/.cache/pacaur/sublime-text/PKGBUILD"
+'4  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,52,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
+'5  1  0  ~/test
+|4,53,1,0,1500908834,"~/test"
 
 # Jumplist (newest first):
+-'  2  112  ~/projects/deployment/.git/TAG_EDITMSG
+|4,39,2,112,1502318142,"~/projects/deployment/.git/TAG_EDITMSG"
+-'  1  0  ~/projects/deployment/.git/TAG_EDITMSG
+|4,39,1,0,1502318106,"~/projects/deployment/.git/TAG_EDITMSG"
+-'  1  91  ~/projects/deployment/.git/TAG_EDITMSG
+|4,39,1,91,1502317983,"~/projects/deployment/.git/TAG_EDITMSG"
+-'  2  0  ~/.cache/pacaur/sublime-text/PKGBUILD
+|4,39,2,0,1502296816,"~/.cache/pacaur/sublime-text/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/sublime-text/PKGBUILD
+|4,39,2,0,1502296816,"~/.cache/pacaur/sublime-text/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/sublime-text/PKGBUILD
+|4,39,2,0,1502296816,"~/.cache/pacaur/sublime-text/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/sublime-text/PKGBUILD
+|4,39,2,0,1502296816,"~/.cache/pacaur/sublime-text/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/sublime-text/PKGBUILD
+|4,39,1,0,1502296808,"~/.cache/pacaur/sublime-text/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/sublime-text/PKGBUILD
+|4,39,1,0,1502296808,"~/.cache/pacaur/sublime-text/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/sublime-text/PKGBUILD
+|4,39,1,0,1502296808,"~/.cache/pacaur/sublime-text/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/sublime-text/PKGBUILD
+|4,39,1,0,1502296808,"~/.cache/pacaur/sublime-text/PKGBUILD"
 -'  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
 |4,39,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  2  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,2,0,1501790567,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,1,0,1501790562,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,1,0,1501790562,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,1,0,1501790562,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,1,0,1501790562,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,1,0,1501790562,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,1,0,1501790562,"~/.cache/pacaur/paperkey/PKGBUILD"
+-'  1  0  ~/.cache/pacaur/paperkey/PKGBUILD
+|4,39,1,0,1501790562,"~/.cache/pacaur/paperkey/PKGBUILD"
 -'  1  0  ~/.cache/pacaur/paperkey/PKGBUILD
 |4,39,1,0,1501790562,"~/.cache/pacaur/paperkey/PKGBUILD"
 -'  1  0  ~/test
 |4,39,1,0,1500908834,"~/test"
 -'  1  0  ~/test
 |4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
+-'  1  0  ~/test
+|4,39,1,0,1500908834,"~/test"
 
 # History of marks within files (newest to oldest):
+
+> ~/projects/deployment/.git/TAG_EDITMSG
+	*	1502318140	0
+	"	2	112
+	^	2	113
+	.	2	112
+	+	1	91
+	+	2	112
+
+> ~/.cache/pacaur/sublime-text/PKGBUILD
+	*	1502296812	0
+	"	2	0
 
 > ~/.cache/pacaur/paperkey/PKGBUILD
 	*	1501790565	0

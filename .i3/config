@@ -49,7 +49,6 @@ bindsym $mod+Shift+Return exec --no-startup-id nautilus
 
 # kill focused window
 bindsym $mod+Shift+q kill
-bindsym mod1+F4 kill
 
 # start rofi (a program launcher like dmenu)
 bindsym $mod+d exec --no-startup-id rofi -show drun

@@ -207,16 +207,6 @@ cl() {
     fi
 }
 
-#userscripts
-alias matlab='~/bin/MATLAB/R2014b/bin/matlab'
-alias cmatlab='~/bin/MATLAB/R2014b/bin/matlab -nosplash -nodesktop'
-alias cpu='cd /sys/devices/system/cpu/cpu0/cpufreq/'
-alias dt='sudo sh -c "echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo"'
-alias et='sudo sh -c "echo 0 > /sys/devices/system/cpu/intel_pstate/no_turbo"'
-alias low='sudo sh -c "echo 25 > /sys/devices/system/cpu/intel_pstate/max_perf_pct"'
-alias high='sudo sh -c "echo 100 > /sys/devices/system/cpu/intel_pstate/max_perf_pct"'
-alias pt='sudo powertop'
-alias wdir='cd ~/cloud/dev/wdir'
 #alias sublime-text='/opt/sublime-text/sublime_text'
 alias usb='sudo mount /dev/sdb /mnt/usb && cd /mnt/usb'
 alias uusb='sudo umount /mnt/usb'

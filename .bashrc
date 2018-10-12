@@ -207,16 +207,6 @@ cl() {
     fi
 }
 
-#userscripts
-alias matlab='~/bin/MATLAB/R2014b/bin/matlab'
-alias cmatlab='~/bin/MATLAB/R2014b/bin/matlab -nosplash -nodesktop'
-alias cpu='cd /sys/devices/system/cpu/cpu0/cpufreq/'
-alias dt='sudo sh -c "echo 1 > /sys/devices/system/cpu/intel_pstate/no_turbo"'
-alias et='sudo sh -c "echo 0 > /sys/devices/system/cpu/intel_pstate/no_turbo"'
-alias low='sudo sh -c "echo 25 > /sys/devices/system/cpu/intel_pstate/max_perf_pct"'
-alias high='sudo sh -c "echo 100 > /sys/devices/system/cpu/intel_pstate/max_perf_pct"'
-alias pt='sudo powertop'
-alias wdir='cd ~/cloud/dev/wdir'
 #alias sublime-text='/opt/sublime-text/sublime_text'
 alias usb='sudo mount /dev/sdb /mnt/usb && cd /mnt/usb'
 alias uusb='sudo umount /mnt/usb'
@@ -294,7 +284,24 @@ alias term='gnome-terminal'
 alias ranger='ranger-cd'
 alias new='clear && alsi'
 alias please='sudo $(history -p !!)'
-
+alias powershell='pwsh'
 
 
 alias config='/usr/bin/git --git-dir=/home/zbayne/.cfg/ --work-tree=/home/zbayne'
+source <(gopass completion bash)
+
+# Launch gpg-agent
+gpg-connect-agent /bye
+
+# When using SSH support, use the current TTY for passphrase prompts
+gpg-connect-agent updatestartuptty /bye > /dev/null
+
+# Point the SSH_AUTH_SOCK to the one handled by gpg-agent
+if [ -S $(gpgconf --list-dirs agent-ssh-socket) ]; then
+  export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+else
+  echo "$(gpgconf --list-dirs agent-ssh-socket) doesn't exist. Is gpg-agent running ?"
+fi
+
+export GPG_TTY=$(tty)
+

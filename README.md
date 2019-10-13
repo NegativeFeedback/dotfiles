@@ -1,89 +1,93 @@
-dotfiles
-========
+# ~/.dotfiles
 
-Arch Linux with i3 WM config
+![screenshot](https://user-images.githubusercontent.com/1177900/48734879-18572e80-ec47-11e8-938f-35be9b66d23a.png)
 
- Forked from https://github.com/mohlerm/
-Vim files are hosted in a separate repository:
-[github.com/mohlerm/vimfiles](https://github.com/mohlerm/vimfiles)
+## Some of the worthy tools that I use:
 
-# i3 Configuration
+- [i3-gaps](https://github.com/Airblader/i3) (window manager) + [py3status](https://github.com/ultrabug/py3status) (status bar)
+- [kitty](https://github.com/kovidgoyal/kitty) (fast GPU-accelerated terminal)
+- [kakoune](https://github.com/mawww/kakoune)
+- [zsh](https://www.zsh.org) + [antigen](https://github.com/zsh-users/antigen) with [prezto](https://github.com/sorin-ionescu/prezto) and various other plugins
 
-## Requirements
-### general
-* arch linux - basic system
-* i3 - window manager
-* i3status - status bar
-* dunst - notifications
-* rofi - Super-P launcher
-* feh - setting background
-* pavucontrol - sound
-* scrot - screenshots
-* libnotify - notifications
-* ttf-font-icons - icons for statusbar
+## Fun things you can find in this repo:
 
-### recommended
-* vim - code/text editor
-* sublime - text editor
-* firefox - browser
-* thunderbird - mail client
-* URXVT - terminal emulator
+☑ A common color scheme for kakoune, terminal and i3 itself.
 
-##Basic Bindings
-* Super - Standard modifier
-* Super+Enter - open terminal
-* Super+Shift+Enter - open nautilus
-* Super+Backslash - open terminal interactively
-* Super+q - kill focused window
-* Super+d - program launcher (rofi)
-* Super+Shift+d - ssh launcher (rofi)
-* Super+{h,j,k,l} - focus left, down, up, right (vim based)
-* Super+{v,g} - split vertical, horizontal 
-* Super+f - fullscreen
-* Super+s - stacking layout
-* Super+w - tabbed layout
-* Super+e - toggle splitted layout
-* Super+Shift+Space - toggle floating mode
-* Super+Space - toggle focus floating
-* Super+a - focus parent container
-* Super+F2 - Rename workspace (not recommended)
-* Super+{1,2,3,4,5,6,7,8,9,0} - switch workspaces
-* Super+Shift+{1,2,3,4,5,6,7,8,9,0} - move container to ws
-* Super+o - move workspace to next output (e.g. displayport)
-* Super+p - move window to displayport (for presentations)
-* Super+Shift+c - reload i3 configuration
-* Super+Shift+r - restart i3, used for upgrading
-* Super+Shift+e - logs out of i3
-* Super+r - switch to window resize mode
-* Alt+Tab - focus right window
-* Alt+Shift+Tab - focus left window
-* Super+Tab - workspace "back-and-forth"
-* Super+PageDown - focus next workspace 
-* Super+PageUp - focus previous workspace
-* Super+b - start firefox
-* Print - make screenshots, see below for more information
-* Super+Shift+Minus - move focused window to scratchpad
-* Super+Minux - show scratchpad
-* Super+F1 - start pulseaudio volume control
-* Super+Escape - shutdown, reboot, lock interactively
+> It is called [Gruvbox dark](https://github.com/morhetz/gruvbox).
 
-Check out the .i3/config for more details.
+☑ Unobtrusive and minimalistic design of i3, py3status and terminal.
 
-##Workspace Layout
-* 1: term: terminal
-* 2: www: browser
-* 3: three: coding
-* 4: four: free
-* 5: five: free
-* 6: six: free
-* 7: seven: steam
-* 8: eight: free
-* 9: DP: displayport (Super+p to move window here)
-* 10: com: communication
+> Display only actionable items, use color to highlight importance, slightly dim inactive windows.
 
-##Scrot Screenshots
-* Print - make screenshot in png format
-* Shift+Print - make screenshot in jpg format
-* Super+Print - make screenshot of current window in png format
-* Super+Shift+Print - make screenshot of current window in jpg format
-* add CTRL key - delay screenshot for 5 seconds
+☑ True Color support everywhere.
+
+> Including kitty, kakoune, tmux; ranger can even display picture previews.
+
+☑ Almost instant terminal startup.
+
+> And yet it is empowered with antigen, prezto and other plugins.
+
+☑ Automatically start tmux on the remote hosts.
+
+- Every connection joins the same single tmux session, allowing to easily reconnect after a network failure, your work stays as you left it.
+
+☑ More secure gpg and ssh configuration.
+
+> Stronger algorithms, more sensible defaults.
+
+☑ gpg-agent configured to act as ssh-agent.
+
+> Extremely nicely integrated with YubiKey, with forwarding to selected remote hosts.
+
+☑ i3 automatically renames workspaces to show currently opened apps.
+
+> Using iconic font to fit a lot of info even on laptop screens.
+
+☑ Automatically renumber tmux sessions.
+
+> Helps when terminals are being opened & closed a lot during the day.
+
+☑ Automatically change terminal's background color based on the ssh host.
+
+> Terminal turns red when you are on production, yellow on staging, etc.
+
+☑ Remember brightness levels on battery and on AC, restore last value when power source changes.
+
+> Useful for automatically dimming screen when switching to battery power.
+
+☑ Automatically connect to VPN on selected networks.
+
+> Comes bundled with a script to prevent DNS leaks on NetworkManager.
+
+☑ Lazy sourcing scripts to speedup terminal startup.
+
+> This is useful for rvm, source it the first time you use `rvm` command.
+
+☑ Automatically backup the list of installed packages (pacman and AUR).
+
+> These files are used to bootstrap the new system, all apps are installed in one command.
+
+☑ Setup script that configures user and system dotfiles, systemd services and other little things.
+
+> This script is safe to re-run at any time.
+
+☑ Compete and very detailed installation instructions for Arch Linux.
+
+> Step-by-step description of how I install Arch Linux from scratch.
+
+## Installation:
+
+```
+$ git clone https://github.com/maximbaz/dotfiles.git ~/.dotfiles
+$ ~/.dotfiles/setup
+```
+
+## Awesome AUR packages that I help maintaining:
+
+- [chromium-vaapi](https://aur.archlinux.org/packages/chromium-vaapi) and [chromium-vaapi-bin](https://aur.archlinux.org/packages/chromium-vaapi-bin) - chromium with hardware video acceleration.
+- [ttf-emojione](https://aur.archlinux.org/packages/ttf-emojione) - latest EmojiOne font that provides colorful emojis for almost all apps on Linux.
+- [yubikey-touch-detector](https://aur.archlinux.org/packages/yubikey-touch-detector) - a tool that can detect when your YubiKey is waiting for a touch.
+- [browserpass](https://aur.archlinux.org/packages/browserpass) - browser extension for pass and gopass.
+- [wire-desktop](https://aur.archlinux.org/packages/wire-desktop) and [wire-desktop-beta](https://aur.archlinux.org/packages/wire-desktop-beta) - end-to-end encrypted chat app.
+- [rmtrash](https://aur.archlinux.org/packages/rmtrash) - trash bin for CLI made compatible to GNUs rm and rmdir.
+- [snap-pac-grub](https://aur.archlinux.org/packages/snap-pac-grub) - updates GRUB for grub-btrfs with snapshots made by snap-pac.
